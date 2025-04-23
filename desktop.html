@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's work together!</title>
+    <link rel="stylesheet" href="desktop.css" />
+    <script src="https://kit.fontawesome.com/0b31c8773c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav aria-label="Main navigation">
+      <img id="logo-nav" src="./assets/images/logo.png" alt="Logo of Vladislav's website" />
+      <ul class="menu">
+        <li><a href="#about">/etc/usr/vladislav/about</a></li>
+        <li><a href="#portfolio">/etc/usr/vladislav/portfolio</a></li>
+        <li><a href="#contacts">/etc/usr/vladislav/contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="hero">
+        <div class="hero">
+          <div class="window-header">
+            <div class="round-buttons">
+              <div class="round-btn close"></div>
+              <div class="round-btn maximize"></div>
+              <div class="round-btn minimize"></div>
+            </div>
+            <p class="centered-title">~:fish — Konsole</p>
+          </div>
+          <div class="terminal"aria-label="Konsole">
+            <p style="animation-delay: 1s">
+              <span style="color: #dead4c; font-weight: bold"
+                >guest@this-pc</span
+              >:~$
+              <span class="fade" style="animation-delay: 2s"
+                >cd /etc/home/</span
+              >
+            </p>
+            <p class="fade" style="animation-delay: 3s">
+              <span style="color: #dead4c; font-weight: bold"
+                >guest@this-pc</span
+              >:~$ <span class="fade" style="animation-delay: 3.7s">ls</span>
+            </p>
+            <ul class="terminal-list">
+              <li>welcome.sh</li>
+              <li>logo.jpg</li>
+              <li>deleted.txt</li>
+              <li>unknown.odt</li>
+              <li>music.mp3</li>
+              <li>notes.md</li>
+            </ul>
+            <p style="animation-delay: 6s">
+              <span style="color: #dead4c; font-weight: bold"
+                >guest@this-pc</span
+              >:~$ ./welcome.sh
+            </p>
+            <p style="animation-delay: 6.4s">Loading portfolio...</p>
+            <p style="animation-delay: 7.3s">✔ Projects</p>
+            <p style="animation-delay: 7.5s">✔ Good vibes</p>
+            <p style="animation-delay: 7.9s">✔ Code experiments</p>
+            <p style="animation-delay: 8.4s">
+              ✔ Lore: devlogs, notes, sketches
+            </p>
+            <p style="animation-delay: 9s">
+              <span style="color: #dead4c; font-weight: bold"
+                >guest@this-pc</span
+              >:~$ <span class="blinking-cursor">_</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="about" aria-labelledby="about-header">
+        <h2>/etc/usr/vladislav/about</h2>
+        <p>
+          Hi, I'm Vlad, a passionate entry full-stack developer with experience
+          in front-end technologies. I love building creative solutions and
+          tackling new challenges. My skills include for now HTML, CSS,
+          JavaScript basics and more!
+        </p>
+      </section>
+      <section id="skills" aria-labelledby="skills-header">
+        <h2>/etc/usr/vladislav/about/skills</h2>
+        <div class="skill-range">
+          <label for="html">HTML</label>
+          <input type="range" id="html" min="0" max="100" value="85" disabled/>
+          <span class="range-static">85%</span>
+        </div>
+        <div class="skill-range">
+          <label for="css">CSS</label>
+          <input type="range" id="css" min="0" max="100" value="90" disabled/>
+          <span class="range-static">90%</span>
+        </div>
+        <div class="skill-range">
+          <label for="js">JS</label>
+          <input type="range" id="js" min="0" max="100" value="5" disabled/>
+          <span class="range-static">5%</span>
+        </div>
+      </section>
+      <section id="portfolio" aria-labelledby="portfolio-header">
+        <h2>/etc/usr/vladislav/portfolio</h2>
+        <div class="projects">
+          <div class="project">
+            <h3>Project 1</h3>
+            <img class="project-preview" src="blank.jpg" alt="project-image"/>
+            <p>A short description of your project.</p>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+          </div>
+          <div class="project">
+            <h3>Project 2</h3>
+            <img class="project-preview" src="blank.jpg" alt="project-image"/>
+            <p>A short description of your project.</p>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+          </div>
+          <div class="project">
+            <h3>Project 3</h3>
+            <img class="project-preview" src="blank.jpg" alt="project-image"/>
+            <p>A short description of your project.</p>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+          </div>
+          <div class="project">
+            <h3>Project 4</h3>
+            <img class="project-preview" src="blank.jpg" alt="project-image"/>
+            <p>A short description of your project.</p>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </section>
+      <section id="contacts" aria-labelledby="contact-header">
+        <h2>/etc/usr/vladislav/contact</h2>
+        <div class="contact-tabs">
+          <div class="contact-via">
+            <a href="https://t.me/yourusername" target="_blank"><i class="fa-brands fa-telegram"></i>Telegram</a>
+          </div>
+          <div class="contact-via">
+            <a href="https://t.me/yourusername" target="_blank"><i class="fa-solid fa-envelope"></i>vkachovic@protonmail.com</a>
+          </div>
+          <div class="contact-via">
+            <a href="https://t.me/yourusername" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>(c) etzhmk. All rights reserved</p>
+    </footer>
+  </body>
+</html>

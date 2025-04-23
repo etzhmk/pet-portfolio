@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRUB Bootloader - Portfolio</title>
+    <style>
+      body {
+        background-color: #080808;
+        color: #ccc;
+        font-family: monospace;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .grub-screen {
+        text-align: left;
+      }
+
+      .grub-title {
+        color: white;
+        font-weight: bold;
+        margin-bottom: 1em;
+      }
+
+      .boot-options {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 1em 0;
+        border: 1px solid #ccc;
+        padding: 20px 10px;
+      }
+
+      .boot-options li {
+        padding: 2px 4px;
+      }
+
+      .boot-options li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .boot-options .selected {
+        background-color: #555;
+        color: #fff;
+      }
+
+      .instructions {
+        color: #dead4c;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grub-screen">
+      <pre class="grub-title">GNU GRUB version 2.06 alpha</pre>
+      <ul class="boot-options">
+        <li class="selected">
+          <a href="./desktop.html">Portfolio (default)</a>
+        </li>
+        <li>Advanced options for Portfolio</li>
+        <li>Memory test (memtest86+)</li>
+        <li>System Rescue</li>
+      </ul>
+      <div class="instructions">
+        Sorry, U can't choose an option. Click Portfolio to boot.
+      </div>
+    </div>
+  </body>
+</html>
