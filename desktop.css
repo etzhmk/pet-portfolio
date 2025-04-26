@@ -345,7 +345,7 @@ h2 {
   height: 100%;
   background-color: var(--brand-color);
   border-radius: 5px;
-  animation: SlideRight 5.5s ease;
+  animation: SlideRight 3.5s ease;
 }
 
 .range-static {
