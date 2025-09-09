@@ -40,7 +40,7 @@ But that’s the point.
 
 ##  Preview
 
-You can check the live version [here](etzhmk.github.io/web-portfolio).
+You can check the live version [here](etzhmk.github.io/pet-portfolio).
 
 ---
 Feel free to fork, remix, or just stare at the void.
